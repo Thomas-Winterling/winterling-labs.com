@@ -107,11 +107,12 @@ header .text-content .contact_button {
 .projects .headline h1 {
   text-align: center;
   font-size: 60px;
+  color: #fff;
 }
 .projects .headline .bar {
   width: 300px;
   height: 5px;
-  background: black;
+  background: #fff;
   border-radius: 5px;
   margin: 0 auto;
 }
