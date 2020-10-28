@@ -1,0 +1,50 @@
+header {
+    height: 80vh;
+    background: url('../img/interior.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+
+    nav {
+        width: 100%;
+        height: 70px;
+        background: black;
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    h1 {
+        font-size: 3.125em;
+        color: orange;
+        text-shadow: 2px 1px black;
+    }
+
+    p {
+        font-size: 2.0em;
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+
+    .text-content {
+        text-align: center;
+
+        a {
+            text-decoration: none;
+        }
+
+        .content-top {
+            padding-top: 300px;
+        }
+    
+        .contact_button {
+            padding-top: 150px;
+        }
+    }
+
+    
+}

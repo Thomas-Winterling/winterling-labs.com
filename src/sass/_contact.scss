@@ -1,0 +1,51 @@
+.contact{
+    min-height: 60vw;
+    margin: 0 auto;
+    background: lightblue;
+
+
+    .headline {
+
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        h1{
+            text-align: center;
+            font-size: 60px;
+        }
+    
+        .bar {
+            width: 300px;
+            height: 5px;
+            background: black;
+            border-radius: 5px;
+            margin: 0 auto;
+        }
+    }
+
+
+    .map-container {
+
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .map {
+            height: 525px;
+            width: 525px;
+            background-color: white;
+            padding: 1rem;
+            border-radius: 20px;
+            margin: 16px auto;
+            box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+    
+            .leaflet-container {
+                height: 500px;
+                width: 500px;
+                border-radius: 12px;
+                margin: 0 auto;
+              }
+        } 
+    }
+    
+    
+}

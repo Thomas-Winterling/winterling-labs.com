@@ -1,0 +1,41 @@
+.projects {
+    
+    min-height: 100vh;
+    background: url('../img/office.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    .headline {
+
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        h1{
+            text-align: center;
+            font-size: 60px;
+            color: #fff;
+        }
+    
+        .bar {
+            width: 300px;
+            height: 5px;
+            background: #fff;
+            border-radius: 5px;
+            margin: 0 auto;
+        }
+    }
+
+    span {
+        
+        i{
+            position: absolute;
+            top: 14px;
+            left: 13px
+        }
+    }
+
+    .service-container {
+        padding-bottom: 100px;
+    }
+}

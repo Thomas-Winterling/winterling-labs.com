@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.box {
+  background: gray;
+  width: 100%;
+  height: 100vh;
+}
+.box .item {
+  height: 300px;
+  width: 900px;
+  background: orangered;
+  margin: 20px;
+}
+
+header {
+  height: 80vh;
+  background: url("../img/interior.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+header nav {
+  width: 100%;
+  height: 70px;
+  background: black;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+header h1 {
+  font-size: 3.125em;
+  color: orange;
+  text-shadow: 2px 1px black;
+}
+header p {
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+header .text-content {
+  text-align: center;
+}
+header .text-content a {
+  text-decoration: none;
+}
+header .text-content .content-top {
+  padding-top: 300px;
+}
+header .text-content .contact_button {
+  padding-top: 150px;
+}
+
+.aboutme {
+  min-width: 100vw;
+  background: rosybrown;
+  min-height: 100vh;
+}
+.aboutme .headline {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.aboutme .headline h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.aboutme .headline .bar {
+  width: 300px;
+  height: 5px;
+  background: black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.aboutme .bar {
+  width: 300px;
+  height: 5px;
+  background: black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.aboutme p {
+  font-size: 24px;
+}
+
+.image {
+  margin: 5% auto;
+}
+
+.projects {
+  min-height: 100vh;
+  background: url("../img/office.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.projects .headline {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.projects .headline h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.projects .headline .bar {
+  width: 300px;
+  height: 5px;
+  background: black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.projects span i {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+}
+.projects .service-container {
+  padding-bottom: 100px;
+}
+
+.contact {
+  min-height: 60vw;
+  margin: 0 auto;
+  background: lightblue;
+}
+.contact .headline {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact .headline h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.contact .headline .bar {
+  width: 300px;
+  height: 5px;
+  background: black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.contact .map-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact .map-container .map {
+  height: 525px;
+  width: 525px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 16px auto;
+  box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+.contact .map-container .map .leaflet-container {
+  height: 500px;
+  width: 500px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.formular {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.skillbars {
+  width: 100vw;
+}
+.skillbars .headline {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.skillbars .headline h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.skillbars .headline .bar {
+  width: 300px;
+  height: 5px;
+  background: black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.skillbars .skillbar {
+  height: 100px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+}
+.skillbars .skillbar .top {
+  display: flex;
+  height: 50px;
+  background: white;
+  font-size: 10px;
+}
+.skillbars .skillbar .top p {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0 0 0 10px;
+}
+.skillbars .skillbar .bottom {
+  height: 50px;
+  background: gray;
+  border-radius: 5px;
+}
+.skillbars .skillbar .bottom .progress {
+  z-index: 10;
+  height: 50px;
+  width: 50px;
+  background: rgba(32, 43, 185, 0.753);
+}
+.skillbars .skillbar .bottom .progress span {
+  color: white;
+  font-size: 20px;
+  float: right;
+  margin: 15px 0 0 0;
+}
+.skillbars .skillbar-container {
+  padding-bottom: 100px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 300px;
+}
+
+/*# sourceMappingURL=style.min.css.map */
