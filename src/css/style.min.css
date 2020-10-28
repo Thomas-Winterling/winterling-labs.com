@@ -95,6 +95,7 @@ header .text-content .contact_button {
 
 .projects {
   min-height: 100vh;
+  width: 101%;
   background: url("../img/office.jpg");
   background-position: center center;
   background-repeat: no-repeat;
