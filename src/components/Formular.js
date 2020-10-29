@@ -2,13 +2,15 @@ import React from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import emailjs from 'emailjs-com';
+import data from '../fixtures/config.json';
 
 const Formular = () => {
 
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('service_jnpqsi9', 'template_p4vptgk', e.target, 'user_8GNynEJ3AiarZRMKjgbWu')
+        console.log(data[0].name);
+        emailjs.sendForm(data[0].SERVICE_ID, data[0].TEMPLATE_ID, e.target, data[0].USER_ID)
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -38,8 +40,8 @@ const Formular = () => {
       </FormGroup>
       <FormGroup check>
         <Label check>
-          <Input type="checkbox" required />{' '}
-          Ja, ich habe die Datenschutzerklärung gelesen und erkläre mich damit einverstanden.
+          <Input type="checkbox" required />
+          {data[2].data_protection}
         </Label>
       </FormGroup>
       <Button>Senden</Button>
