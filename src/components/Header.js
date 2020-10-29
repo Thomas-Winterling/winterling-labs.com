@@ -2,6 +2,10 @@ import React from 'react';
 import MenuData from '../fixtures/menu.json'
 import { Icon } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
+import {
+    BrowserRouter as Router,
+    Link
+  } from "react-router-dom";
 
 
 function Header() {
@@ -9,6 +13,7 @@ function Header() {
     return (
         <header>
 
+        <Router>
             <nav>
                 {MenuData.map((item) => (
                     <li><a href={item.path}>{item.title}</a></li>
@@ -25,22 +30,29 @@ function Header() {
                 </div>
 
                 <div className="content-bottom">
-                    <a href="https://github.com/CleverProgrammers/">
+                   
+                    <Link to="/">
                         <Icon name="github" size="huge" color="orange" bordered />
-                    </a>
-                   
+                    </Link>
+                        
+                    <Link to="#contact">
                         <Icon name="mail" size="huge" color="orange" bordered />
-                   
+                    </Link>
+
                 </div>
 
                 {/* Topbutton  arrow up */}
                 <div className="contact_button">
                     
+                    <Link>
                         <Icon name="angle double down" size="huge" color="orange" bordered/>
+                    </Link>
                    
                 </div>
         
             </div>
+
+            </Router>
 
         </header>
     )
