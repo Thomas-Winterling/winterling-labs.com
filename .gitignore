@@ -22,12 +22,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-<<<<<<< HEAD
 # IDE
 .vscode
 
+# other
 debug.log
-=======
-#ide
-.vscode
->>>>>>> fb448587f75ae680556b0f5a78a8f2f003650537
+
+
+# project
+/src/fixtures/config.json
