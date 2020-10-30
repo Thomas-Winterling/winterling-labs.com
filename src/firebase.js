@@ -1,5 +1,6 @@
 import firebase from "firebase";
-import data from './firebase.js';
+import data from './fixtures/config.json';
+
 
 const firebaseConfig = {
     apiKey: data[1].apiKey,
