@@ -20,7 +20,7 @@ const Formular = () => {
 
 
         //firebase
-        db.collection('contacts').add({
+        db.collection(data[3].prefix).add({
           name: name,
           email: email,
           subject: subject,
@@ -69,7 +69,7 @@ const Formular = () => {
         </Label>
       </FormGroup>
       <Button style={{background : loader
-      ? 'green' : 'rgb(2, 2, 110)'
+      ? 'green' : 'green'
       }}>Senden</Button>
     </Form>
     </div>
