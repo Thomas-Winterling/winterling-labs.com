@@ -68,7 +68,6 @@ const Formular = () => {
           {data[2].data_protection}
         </Label>
       </FormGroup>
-      {console.log(loader)}
       <Button style={{background : loader
       ? 'green' : 'rgb(2, 2, 110)'
       }}>Senden</Button>
