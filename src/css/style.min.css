@@ -39,6 +39,7 @@ header h1 {
   font-size: 3.125em;
   color: orange;
   text-shadow: 2px 1px black;
+  text-transform: uppercase;
 }
 header p {
   font-size: 2em;
@@ -109,6 +110,7 @@ header .text-content .contact_button {
   text-align: center;
   font-size: 60px;
   color: #fff;
+  text-transform: uppercase;
 }
 .projects .headline .bar {
   width: 300px;
@@ -138,6 +140,7 @@ header .text-content .contact_button {
 .contact .headline h1 {
   text-align: center;
   font-size: 60px;
+  text-transform: uppercase;
 }
 .contact .headline .bar {
   width: 300px;
