@@ -71,6 +71,7 @@ header .text-content .contact_button {
 .aboutme .headline h1 {
   text-align: center;
   font-size: 60px;
+  text-transform: uppercase;
 }
 .aboutme .headline .bar {
   width: 300px;
@@ -184,6 +185,7 @@ header .text-content .contact_button {
 .skillbars .headline h1 {
   text-align: center;
   font-size: 60px;
+  text-transform: uppercase;
 }
 .skillbars .headline .bar {
   width: 300px;
