@@ -48,19 +48,19 @@ const Formular = () => {
     <Form onSubmit={ sendEmail }>
         <FormGroup>
         <Label for="exampleEmail">Name</Label>
-        <Input type="text" name="name" id="exampleEmail" placeholder="Name" onChange={(e) => setName(e.target.value)} required/>
+        <Input type="text" name="name" placeholder="Name" onChange={(e) => setName(e.target.value)} required/>
       </FormGroup>
       <FormGroup>
         <Label for="exampleEmail">Email</Label>
-        <Input type="email" name="email" id="exampleEmail" placeholder="E-Mail" onChange={(e) => setEmail(e.target.value)} required/>
+        <Input type="email" name="email" placeholder="E-Mail" onChange={(e) => setEmail(e.target.value)} required/>
       </FormGroup>
       <FormGroup>
         <Label for="exampleEmail">Betreff</Label>
-        <Input type="text" name="subject" id="exampleEmail" placeholder="Betreff" onChange={(e) => setSubject(e.target.value)} required/>
+        <Input type="text" name="subject" placeholder="Betreff" onChange={(e) => setSubject(e.target.value)} required/>
       </FormGroup>
       <FormGroup>
         <Label for="exampleText">Nachricht</Label>
-        <Input type="textarea" name="message" id="exampleText" placeholder="Nachricht" onChange={(e) => setMessage(e.target.value)}  required/>
+        <Input type="textarea" name="message" placeholder="Nachricht" onChange={(e) => setMessage(e.target.value)}  required/>
       </FormGroup>
       <FormGroup check>
         <Label check>
