@@ -1,6 +1,7 @@
 import React from 'react';
 import Cookie from '../components/Cookie';
 import text from '../fixtures/impressum.js';
+import Impressum from '../components/Impressum.js'
 
 
 
@@ -18,6 +19,7 @@ function Footer() {
             <p>Winterling-labs.com</p>
             <Cookie />
             <h1>{text}</h1>
+            <Impressum />
         </div>
     )
 }
