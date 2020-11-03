@@ -7,7 +7,6 @@ import {
     Link
   } from "react-router-dom";
 
-
 function Header() {
 
     return (
@@ -15,6 +14,9 @@ function Header() {
 
         <Router>
             <nav>
+                <div className="logo">
+                    <img alt="logo" src="../img/logo_v1.png" />
+                </div>
                 {MenuData.map((item) => (
                     <li><a href={item.path}>{item.title}</a></li>
                 ))}
