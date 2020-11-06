@@ -1,7 +1,8 @@
 import React from 'react';
 import Cookie from '../components/Cookie';
-import text from '../fixtures/impressum.js';
-import Impressum from '../components/Impressum.js'
+import Impressum from '../components/Impressum'
+import DataProtection from '../components/DataProtection'
+import { Nav } from 'react-bootstrap';
 
 
 
@@ -17,9 +18,18 @@ function Footer() {
         <div className="footer">
             <p>Copyright { date() }</p>
             <p>Winterling-labs.com</p>
-            <Cookie />
-            <h1>{text}</h1>
-            <Impressum />
+            <Nav className="justify-content-center" activeKey="/impressum">
+                <Nav.Item>
+                    <Nav.Link href="#contact">Kontakt</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="/impressum">Impressum</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="datenschutz">Datenschutz</Nav.Link>
+                </Nav.Item>
+            </Nav>
+            <Cookie />    
         </div>
     )
 }
