@@ -6,6 +6,8 @@ import {
     BrowserRouter as Router,
     Link
   } from "react-router-dom";
+import Logo from '../img/logo_v1.png'  
+import { Nav } from 'react-bootstrap';
 
 function Header() {
 
@@ -13,14 +15,37 @@ function Header() {
         <header>
 
         <Router>
+
             <nav>
                 <div className="logo">
-                    <img alt="logo" src="../img/logo_v1.png" />
+                    <img alt="logo" src={Logo} />
                 </div>
-                {MenuData.map((item) => (
-                    <li><a href={item.path}>{item.title}</a></li>
-                ))}
+                <div className="menu">
+                <Nav className="justify-content-center" activeKey="/home">
+                    <Nav.Item>
+                        <Nav.Link href="/home">Home</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#aboutme">Über mich</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#projects">Projekte</Nav.Link>
+                        </Nav.Item>
+                    <Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#skills">Skills</Nav.Link>
+                        </Nav.Item>
+                    <Nav.Item></Nav.Item>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="#contact">Kontakt</Nav.Link>
+                        </Nav.Item>
+                    <Nav.Item></Nav.Item>
+                </Nav>
+                </div>
             </nav>
+        
+
  
             <div className="text-content">
 
