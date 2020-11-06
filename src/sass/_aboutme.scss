@@ -36,5 +36,38 @@
 }
 
 .image {
-    margin: 5% auto;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-weight: 500;
+  font-size: 70px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-weight: 500;
+  font-size: 70px;
+  color: black;
+}
+
+.carousel-caption {
+
+    h3 {
+        background-color: orange;
+        color: black;
+        font-size: 4.0rem;
+    }
+
+    p {
+        background-color: orange;
+        color: black;
+    }
+}
+
 }

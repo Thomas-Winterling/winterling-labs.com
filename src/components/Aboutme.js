@@ -1,9 +1,13 @@
 import React from 'react'
 import { Container, Divider } from 'semantic-ui-react'
+import { Carousel } from 'react-bootstrap';
+import Typed from '../img/typed.png' 
+import Statistics from '../img/statistics.png' 
+import Diagramm1 from '../img/dia1.png' 
 
 
 const Aboutme = () => (
-  <div className="aboutme">
+  <div id="aboutme" className="aboutme">
       
     <Container textAlign='justified'>
     <Container textAlign='center'>
@@ -14,40 +18,54 @@ const Aboutme = () => (
     </Container>
       <Divider />
       <p data-aos="zoom-in-up">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-        ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et
-        magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-        quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
-        arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-        Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras
-        dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
-        tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
-        enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-        imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-        ultricies nisi.
+        Herzlich Willkommen bei Winterling-labs.com. Wir sind eine kleine Internet Argentur aus Landshut und haben uns auf den Berreich Webentwicklung spezialisiert.
+        Unser Ziel ist es kleine und mittelständische Unternehmen erfolgreich im Internet zu präsentieren.Wir entwickeln Webseiten, Apps und Erweiterungen für CMS Systeme wie Joomla! und Wordpress.
+        Ein gepflegter Kontakt zu unseren Kunden ist uns wichtig, wir begleiten Sie von der Entwicklung eines Konzepts bis hin zur Erstellung Ihres Webprojects.
       </p>
-      <p data-aos="zoom-in-up">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-        ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et
-        magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-        quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
-        arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-        Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras
-        dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend
-        tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
-        enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
-        imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper
-        ultricies nisi.
-      </p>
+      
     </Container>
 
-    <div className="image">
-        
-      </div>
+    <div data-aos="zoom-in-left" className="image">
+      <Carousel
+        interval="5000"
+        prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon" />}
+        nextIcon={<span aria-hidden="true" className="carousel-control-next-icon" />}
+      >
+        <Carousel.Item>
+          <img
+          className="d-block w-100"
+          src={Typed}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>Erstellen Sie ihre eigenen Extensions</h3>
+          <p>Wir erstellen maßgeschneiderte Erweiterungen für Ihr Projekt.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+          <img
+          className="d-block w-100"
+          src={Statistics}
+          alt="Third slide"
+          />
+          <Carousel.Caption>
+            <h3>Erstellen Sie Ihre eigenen Statistiken</h3>
+            <p>Wir werten Ihre Daten aus und stellen Sie grafisch dar.</p>
+          </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={Diagramm1}
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+            <h3>Erstellen Sie Ihre eigenen Statistiken</h3>
+            <p>Wir werten Ihre Daten aus und stellen Sie grafisch dar.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
     
   </div>
 )
