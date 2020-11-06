@@ -4,7 +4,7 @@ import Karte from '../components/Karte';
 
 function Contact() {
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <div data-aos="fade-right" className="headline">
                 <h1>Kontakt</h1>
                 <div className="bar"></div>
