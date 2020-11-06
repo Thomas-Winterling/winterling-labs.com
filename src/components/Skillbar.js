@@ -4,7 +4,7 @@ import Progressbar from '../components/Progressbar';
 
 function Skillbar() {
     return (
-    <div className="skillbars">
+    <div id="skills" className="skillbars">
 
         <div data-aos="fade-right" className="headline">
             <h1>Skills</h1>
