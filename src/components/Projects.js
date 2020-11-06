@@ -6,7 +6,7 @@ import 'semantic-ui-css/semantic.min.css'
 
 function Projects() {
     return (
-        <div className="projects">
+        <div id="projects" className="projects">
             <div data-aos="fade-right" className="headline">
                 <h1>Webanwendungen</h1>
                 <div className="bar"></div>
