@@ -12,7 +12,9 @@ function Projects() {
                 <div className="bar"></div>
             </div> 
             <div className="service-container">
-            <VerticalTimeline>
+            <VerticalTimeline
+                animate={true}
+            >
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
