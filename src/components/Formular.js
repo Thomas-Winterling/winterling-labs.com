@@ -41,6 +41,7 @@ const Formular = () => {
               console.log(error.text);
           });
 
+          e.target.reset();
       }
 
   return (
