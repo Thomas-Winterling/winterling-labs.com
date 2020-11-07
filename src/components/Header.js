@@ -1,52 +1,17 @@
 import React from 'react';
-import MenuData from '../fixtures/menu.json'
 import { Icon } from 'semantic-ui-react'
-import 'semantic-ui-css/semantic.min.css'
 import {
-    BrowserRouter as Router,
     Link
   } from "react-router-dom";
-import Logo from '../img/logo_v1.png'  
-import { Nav } from 'react-bootstrap';
+import Navigation from '../components/Navigation'
 
 function Header() {
 
     return (
         <header>
 
-        <Router>
-
-            <nav>
-                <div className="logo">
-                    <img alt="logo" src={Logo} />
-                </div>
-                <div className="menu">
-                <Nav className="justify-content-center" activeKey="/home">
-                    <Nav.Item>
-                        <Nav.Link href="/home">Home</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#aboutme">Über mich</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#projects">Projekte</Nav.Link>
-                        </Nav.Item>
-                    <Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#skills">Skills</Nav.Link>
-                        </Nav.Item>
-                    <Nav.Item></Nav.Item>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="#contact">Kontakt</Nav.Link>
-                        </Nav.Item>
-                    <Nav.Item></Nav.Item>
-                </Nav>
-                </div>
-            </nav>
+            <Navigation />
         
-
- 
             <div className="text-content">
 
                 <div className="content-top">
@@ -62,7 +27,7 @@ function Header() {
                         <Icon name="github" size="huge" color="orange" bordered />
                     </Link>
                         
-                    <Link to="#contact">
+                    <Link href="#contact" to="#contact">
                         <Icon name="mail" size="huge" color="orange" bordered />
                     </Link>
 
@@ -79,7 +44,6 @@ function Header() {
         
             </div>
 
-            </Router>
 
         </header>
     )

@@ -10,11 +10,21 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import "leaflet/dist/leaflet.css";
+import Impressum from './components/Impressum'
+import Navigation from './components/Navigation'
+import DataProtection from './components/DataProtection'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 
 
 
 function App() {
+
 
   useEffect(() => {
     Aos.init({
@@ -25,18 +35,33 @@ function App() {
   return (
     <div className="app">
 
-      <Header />
+      <Router>
+        <Switch>
 
-      <Aboutme />
+          <Route exact path="/">
+            <Header />
+            <Aboutme />
+            <Projects />
+            <Skillbar />
+            <Contact />
+            <Footer />
+          </Route>
 
-      <Projects />
+          <Route path="/impressum">
+            <Navigation />
+            <Impressum />
+            <Footer />
+          </Route>
+          
+          <Route path="/datenschutz">
+            <Navigation />
+            <DataProtection />
+            <Footer />
+          </Route>
 
-      <Skillbar />
-  
-      <Contact />
-      
-      <Footer />
-      
+        </Switch>
+      </Router>
+
     </div>
   );
 }
