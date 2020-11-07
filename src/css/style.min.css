@@ -37,6 +37,7 @@
 }
 
 header {
+  width: 100vw;
   height: 80vh;
   background: url("../img/interior.jpg");
   background-position: center center;
@@ -156,7 +157,7 @@ header .text-content .contact_button {
 .projects span i {
   position: absolute;
   top: 14px;
-  left: 13px;
+  left: 10px;
 }
 .projects .service-container {
   padding-bottom: 100px;
