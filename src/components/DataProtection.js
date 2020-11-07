@@ -2,8 +2,11 @@ import React from 'react'
 
 function DataProtection() {
     return (
-        <div>
-            <h1>Datenschutzerklärung</h1>
+        <div className="dataprotection" style={{paddingTop: '100px'}}>
+            <div className="headline">
+                <h1>Datenschutz</h1>
+                <div className="bar"></div>
+            </div>
             <h2>Datenschutz</h2>
             <p>Wir haben diese Datenschutzerklärung (Fassung 04.11.2020-321227758) verfasst, um Ihnen gemäß der Vorgaben der <a href="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;tid=321227758">Datenschutz-Grundverordnung (EU) 2016/679</a> zu erklären, welche Informationen wir sammeln, wie wir Daten verwenden und welche Entscheidungsmöglichkeiten Sie als Besucher dieser Webseite haben.</p>
             <p>Leider liegt es in der Natur der Sache, dass diese Erklärungen sehr technisch klingen, wir haben uns bei der Erstellung jedoch bemüht die wichtigsten Dinge so einfach und klar wie möglich zu beschreiben.</p>
@@ -284,10 +287,7 @@ function DataProtection() {
             <p>Sie können die Nutzung der Aktivitäten und Informationen Ihres Google Kontos unter “Einstellungen für Werbung” auf <a href="https://adssettings.google.com/authenticated">https://adssettings.google.com/authenticated</a> per Checkbox beenden.</p>
             <h2>Google Analytics Deaktivierungslink</h2>
             <p>Wenn Sie auf folgenden <strong>Deaktivierungslink</strong> klicken, können Sie verhindern, dass Google weitere Besuche auf dieser Webseite erfasst. Achtung: Das Löschen von Cookies, die Nutzung des Inkognito/Privatmodus Ihres Browsers, oder die Nutzung eines anderen Browsers führt dazu, dass wieder Daten erhoben werden.</p>
-            <p>
-                <a onclick="alert('Google Analytics wurde deaktiviert');"
-                href="javascript:gaOptout()">Google Analytics deaktivieren</a>
-            </p>
+
             <h2>Google Analytics Zusatz zur Datenverarbeitung</h2>
             <p>Wir haben mit Google einen Direktkundenvertrag zur Verwendung von Google Analytics abgeschlossen, indem wir den “Zusatz zur Datenverarbeitung” in Google Analytics akzeptiert haben.</p>
             <p>Mehr über den Zusatz zur Datenverarbeitung für Google Analytics finden Sie hier: <a href="https://support.google.com/analytics/answer/3379636?hl=de&amp;utm_id=ad">https://support.google.com/analytics/answer/3379636?hl=de&amp;utm_id=ad</a>
@@ -297,7 +297,7 @@ function DataProtection() {
             <p>Das besondere daran ist, dass es sich dabei um ein Cross-Device-Tracking handelt. Das heißt Ihre Daten können geräteübergreifend analysiert werden. Durch die Aktivierung von Google-Signale werden Daten erfasst und mit dem Google-Konto verknüpft. Google kann dadurch zum Beispiel erkennen, wenn Sie auf unsere Webseite über ein Smartphone ein Produkt ansehen und erst später über einen Laptop das Produkt kaufen. Dank der Aktivierung von Google-Signale können wir gerätübergreifende Remarketing-Kampagnen starten, die sonst in dieser Form nicht möglich wären. Remarketing bedeutet, dass wir Ihnen auch auf anderen Webseiten unser Angebot zeigen können.</p>
             <p>In Google Analytics werden zudem durch die Google-Signale weitere Besucherdaten wie Standort, Suchverlauf, YouTube-Verlauf und Daten über Ihre Handlungen auf unserer Webseite, erfasst. Wir erhalten dadurch von Google bessere Werbeberichte und nützlichere Angaben zu Ihren Interessen und demografischen Merkmalen. Dazu gehören Ihr Alter, welche Sprache sie sprechen, wo Sie wohnen oder welchem Geschlecht Sie angehören. Weiters kommen auch noch soziale Kriterien wie Ihr Beruf, Ihr Familienstand oder Ihr Einkommen hinzu. All diese Merkmal helfen Google Analytics Personengruppen bzw. Zielgruppen zu definieren.</p>
             <p>Die Berichte helfen uns auch Ihr Verhalten, Ihre Wünsche und Interessen besser einschätzen zu können. Dadurch können wir unsere Dienstleistungen und Produkte für Sie optimieren und anpassen. Diese Daten laufen standardmäßig nach 26 Monaten ab. Bitte beachten Sie, dass diese Datenerfassung nur erfolgt, wenn Sie personalisierte Werbung in Ihrem Google-Konto zugelassen haben. Es handelt sich dabei immer um zusammengefasste und anonyme Daten und nie um Daten einzelner Personen. In Ihrem Google-Konto können Sie diese Daten verwalten bzw. auch löschen.</p>
-            <p>Quelle: Erstellt mit dem <a href="https://www.adsimple.de/datenschutz-generator/">Datenschutz Generator</a> von AdSimple in Kooperation mit <a href="https://www.justmed.de">justmed.de</a>
+            <p style={{paddingBottom: '100px'}}>Quelle: Erstellt mit dem <a href="https://www.adsimple.de/datenschutz-generator/">Datenschutz Generator</a> von AdSimple in Kooperation mit <a href="https://www.justmed.de">justmed.de</a>
             </p>
         </div>
     )

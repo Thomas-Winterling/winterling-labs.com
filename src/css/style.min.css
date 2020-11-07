@@ -69,6 +69,46 @@ header .text-content .contact_button {
   padding-top: 150px;
 }
 
+.impressum {
+  text-align: center;
+}
+.impressum .headline {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.impressum .headline h1 {
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.impressum .headline .bar {
+  width: 300px;
+  height: 5px;
+  background: black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.dataprotection {
+  text-align: center;
+}
+.dataprotection .headline {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.dataprotection .headline h1 {
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.dataprotection .headline .bar {
+  width: 300px;
+  height: 5px;
+  background: black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
 .aboutme {
   min-width: 100vw;
   background: rosybrown;

@@ -2,8 +2,11 @@ import React from 'react'
 
 function Impressum() {
     return (
-    <div className="impressum">
-        <h1>Impressum</h1>
+    <div className="impressum" style={{paddingTop: '100px'}}>
+        <div className="headline">
+            <h1>Impressum</h1>
+            <div className="bar"></div>
+        </div>
         <p>Informationspflicht laut § 5 TMG.</p>
         <p>MusterFirma<br />Musterstrasse 1, Stiege 1 Tür 1, <br />12345 Musterhausen, <br />Deutschland</p>
         <p>
@@ -40,7 +43,7 @@ function Impressum() {
         <h2>Bildernachweis</h2>
         <p>Die Bilder, Fotos und Grafiken auf dieser Webseite sind urheberrechtlich geschützt.</p>
         <p>Die Bilderrechte liegen bei den folgenden Fotografen und Unternehmen:</p>
-        <ul>
+        <ul style={{paddingBottom: '100px'}}>
             <li>Fotograf Mustermann</li>
         </ul>
     </div>
