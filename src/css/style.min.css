@@ -16,15 +16,7 @@
   margin: 20px;
 }
 
-header {
-  height: 80vh;
-  background: url("../img/interior.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  position: relative;
-}
-header nav {
+.navigation {
   width: 100%;
   height: 70px;
   background: #2B373B;
@@ -34,14 +26,23 @@ header nav {
   left: 0;
   z-index: 1000;
 }
-header nav .logo {
+.navigation .logo {
   width: 20%;
 }
-header nav .logo img {
+.navigation .logo img {
   width: 200px;
 }
-header nav .menu {
+.navigation .menu {
   width: 80%;
+}
+
+header {
+  height: 80vh;
+  background: url("../img/interior.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
 }
 header h1 {
   font-size: 3.125em;
@@ -266,10 +267,13 @@ header .text-content .contact_button {
 }
 
 .footer {
+  background: #2B373B;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 300px;
+  padding-top: 100px;
+  color: white;
 }
 
 /*# sourceMappingURL=style.min.css.map */
