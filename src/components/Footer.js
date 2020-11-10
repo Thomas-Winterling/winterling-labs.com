@@ -1,5 +1,6 @@
 import React from 'react';
 import Cookie from '../components/Cookie';
+import Logo from '../img/logo_v4.png' 
 import { Nav } from 'react-bootstrap';
 
 
@@ -16,6 +17,7 @@ function Footer() {
         <div className="footer">
             <p>Copyright { date() }</p>
             <p>Winterling-labs.com</p>
+            <img alt="logo" src={Logo} />
             <Nav className="justify-content-center" activeKey="/impressum">
                 <Nav.Item>
                     <Nav.Link href="#contact">Kontakt</Nav.Link>

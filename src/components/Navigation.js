@@ -1,6 +1,6 @@
 import React from 'react';
 import * as ReactBootStrap from "react-bootstrap";
-import Logo from '../img/logo_v1.png' 
+import Logo from '../img/logo_v4.png' 
 
 function Navigation() {
     return (
