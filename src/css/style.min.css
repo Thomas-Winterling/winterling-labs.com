@@ -139,6 +139,7 @@ header .text-content .contact_button {
 }
 .aboutme p {
   font-size: 24px;
+  text-align: center;
 }
 
 .image {
@@ -162,7 +163,7 @@ header .text-content .contact_button {
 .image .carousel-caption h3 {
   background-color: orange;
   color: black;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .image .carousel-caption p {
   background-color: orange;
