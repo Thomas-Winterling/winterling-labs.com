@@ -317,5 +317,9 @@ header .text-content .contact_button {
   padding-top: 100px;
   color: white;
 }
+.footer img {
+  width: 6%;
+  height: auto;
+}
 
 /*# sourceMappingURL=style.min.css.map */
