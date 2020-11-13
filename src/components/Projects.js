@@ -19,7 +19,7 @@ function Projects() {
                         className="vertical-timeline-element--work"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         contentStyle={{ background: 'white', color: 'black'}}
-                        icon={<Icon name="keyboard" size="big"/>}
+                        icon={<Icon name="keyboard"/>}
                     >
                         <h3 className="vertical-timeline-element-title">Webentwicklung</h3>
                         <i>Webseiten & Extension Entwicklung</i>
@@ -31,7 +31,7 @@ function Projects() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon={<Icon name="search" size="big"/>}
+                        icon={<Icon name="search"/>}
                     >
                         <h3 className="vertical-timeline-element-title">SEO</h3>
                         <i>Suchmaschinenoptimierung</i>
@@ -43,7 +43,7 @@ function Projects() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon={<Icon name="computer" size="big"/>}
+                        icon={<Icon name="computer"/>}
                     >
                         <h3 className="vertical-timeline-element-title">Responsives Design</h3>
                         <i>Ihre Webseite auf allen Endgeräten.</i>
@@ -54,7 +54,7 @@ function Projects() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                        icon={<Icon name="code" size="big"/>}
+                        icon={<Icon name="code"/>}
                     >
                         <h3 className="vertical-timeline-element-title">Webbasierte Programmierung</h3>
                         <i>Programmiersprachen</i>
@@ -65,7 +65,7 @@ function Projects() {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                        icon={<Icon name="phone" size="big"/>}
+                        icon={<Icon name="phone"/>}
                     >
                         <h3 className="vertical-timeline-element-title">Support und Beratung</h3>
                         <i>Kostenlose Beratung</i>

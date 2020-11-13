@@ -31,8 +31,8 @@
         
         i{
             position: absolute;
-            top: 14px;
-            left: 10px
+            top: 18px;
+            left: 20px
         }
     }
 
@@ -40,3 +40,19 @@
         padding-bottom: 100px;
     }
 }
+
+
+
+@media (max-width: 1169px) { 
+   
+    .projects {
+        span {
+        
+            i{
+                top: 10px;
+                left: 10px
+            }
+        }
+    }
+
+ }
