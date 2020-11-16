@@ -1,6 +1,6 @@
 .aboutme {
     min-width: 100vw;
-    background: rosybrown;
+    background: rgb(53, 53, 53);
     min-height: 100vh;
 
     .headline {
@@ -11,12 +11,13 @@
             text-align: center;
             font-size: 60px;
             text-transform: uppercase;
+            color: white;
         }
     
         .bar {
             width: 300px;
             height: 5px;
-            background: black;
+            background: white;
             border-radius: 5px;
             margin: 0 auto;
         }
@@ -31,13 +32,14 @@
     }
 
     p {
+        color: white;
         font-size: 24px;
         text-align: center;
     }
 }
 
 .image {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -61,13 +63,13 @@
 
     h3 {
         background-color: orange;
-        color: black;
-        font-size: 3.0rem;
+        color: white;
+        font-size: 2.0rem;
     }
 
     p {
         background-color: orange;
-        color: black;
+        color: white;
     }
 }
 
